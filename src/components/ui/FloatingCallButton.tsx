@@ -15,6 +15,3 @@ const FloatingCallButton = () => {
 };
 
 export default FloatingCallButton;
-
-
-

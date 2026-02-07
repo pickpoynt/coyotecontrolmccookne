@@ -7,32 +7,32 @@ import {
 
 const faqs = [
   {
-    question: "What exactly is a slab leak?",
-    answer: "A slab leak occurs when the water lines (either incoming pressure lines or outgoing drain lines) located beneath your home's concrete foundation develop a leak. These are dangerous because they are hidden from view and can compromise your foundation's structural integrity."
+    question: "Why do I need to test my backflow preventer every year in Cary?",
+    answer: "The Town of Cary (and NC state law) requires annual testing to ensure the check valves and relief ports are operating correctly. This prevents contaminated water from being siphoned back into the public drinking water supply if a pressure drop occurs."
   },
   {
-    question: "What are the common signs of a slab leak in Asheville?",
-    answer: "Common indicators include hot spots on your floor, the sound of running water when faucets are off, unexplained dampness or mold on baseboards, a sudden spike in your Asheville water bill, or cracks forming in your foundation or walls."
+    question: "How do I know when my backflow test is due?",
+    answer: "Most property owners receive a notification letter from the Town of Cary Water Department. However, tests are typically due on the anniversary of your installation or previous test. We can help you track your due date."
   },
   {
-    question: "Do you use non-destructive detection methods?",
-    answer: "Yes. We use advanced electronic acoustic listening devices and thermal imaging technology to pinpoint the leak location through the concrete. This allows us to identify the exact spot for repair, preventing unnecessary damage to your flooring."
+    question: "Do I need to be home for the backflow test?",
+    answer: "For exterior units, such as those for irrigation systems, you typically do not need to be home as long as we have clear access to the assembly. For interior commercial or residential units, we will need to schedule a time for access."
   },
   {
-    question: "How much does slab leak repair cost in Asheville?",
-    answer: "Detection typically costs between $250 and $600. Repair costs vary depending on the leak location and method (spot repair vs. re-routing), typically ranging from $1,500 to $4,000. We provide upfront estimates before any work begins."
+    question: "What happens if my backflow preventer fails the test?",
+    answer: "If it fails, the Town of Cary gives you a grace period for repairs. As certified testers and repair specialists, we can often fix the unit on the same day by replacing worn rubber seals, springs, or cleaning out debris."
   },
   {
-    question: "Will my homeowners insurance cover the repair?",
-    answer: "Most Asheville policies cover the 'access' and 'repair to property' caused by the leak, though they may not cover the specific pipe repair itself. We provide comprehensive documentation and photos to help you successfully file your claim."
+    question: "Do you submit the results to the Town of Cary for me?",
+    answer: "Yes! We handle the entire submittal process. We use the required electronic reporting systems to send your certified results directly to the Cary Water Department, saving you the paperwork."
   },
   {
-    question: "How long does the detection and repair process take?",
-    answer: "Most leaks can be detected within 1-2 hours. A standard direct-access repair usually takes 1 business day, while more complex re-routing may take 2-3 days."
+    question: "What is an RPZ vs. a Double Check Valve?",
+    answer: "Reduced Pressure Zone (RPZ) assemblies offer the highest protection and are required for 'high hazard' applications like irrigation. Double Check Valve Assemblies (DCVA) are used for lower hazard domestic lines. We test all certified types."
   },
   {
-    question: "What causes slab leaks in Western North Carolina?",
-    answer: "Local factors include clay soil expansion and contraction, mountain terrain shifting, and the corrosive nature of some local water supplies on older copper piping systems."
+    question: "How much does a backflow test cost in Cary, NC?",
+    answer: "Pricing typically ranges from $85 to $150 for residential irrigation units, depending on accessibility and reporting fees. Commercial testing costs vary by unit size. Call us at (877) 792-1410 for a quick quote."
   }
 ];
 
@@ -42,17 +42,17 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Leak Detection & Repair FAQ
+            Certification & Testing FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Answers to common questions about slab leaks and foundation plumbing in Asheville.
+            Answers to common questions about backflow prevention and Town of Cary compliance.
           </p>
         </div>
 
         <Accordion type="single" collapsible className="w-full space-y-4">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`} className="border border-slate-200 rounded-xl px-4 bg-white shadow-sm overflow-hidden">
-              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-blue-600 py-6 transition-colors">
+              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-blue-600 py-6 transition-colors font-semibold leading-relaxed">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 leading-relaxed pb-6">

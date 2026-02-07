@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, ShieldCheck } from "lucide-react";
+import { Phone, MapPin, Clock, ShieldCheck, MailCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -7,11 +7,11 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6">
-              Expert Asheville Slab Leak Help is One Call Away
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 leading-tight">
+              Get Your Backflow Certification Today in Cary
             </h2>
-            <p className="text-xl text-slate-300 mb-10 leading-relaxed">
-              Facing a foundations plumbing emergency? Our licensed technicians are on standby throughout Asheville and Buncombe County to provide rapid detection and repair.
+            <p className="text-xl text-slate-300 mb-10 leading-relaxed font-medium">
+              Don't wait for your water to be shut off. Our Cary-based certified testers are ready to provide fast, reliable backflow testing and official documentation submittal.
             </p>
 
             <div className="space-y-6">
@@ -20,7 +20,7 @@ const Contact = () => {
                   <Phone className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Emergency Hotlines</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Certification Hotline</div>
                   <a href="tel:8777921410" className="text-2xl md:text-3xl font-heading font-bold text-white hover:text-blue-400 transition-colors">
                     (877) 792-1410
                   </a>
@@ -32,9 +32,9 @@ const Contact = () => {
                   <MapPin className="w-7 h-7 text-blue-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Service Area</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Cary Service Area</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    Asheville, NC & Surrounding Areas
+                    Cary, Apex, Morrisville & Western Wake
                   </div>
                 </div>
               </div>
@@ -44,9 +44,9 @@ const Contact = () => {
                   <Clock className="w-7 h-7 text-blue-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Response Time</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Office Hours</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    24/7 Rapid Emergency Response
+                    Mon - Fri: 8:00 AM - 6:00 PM
                   </div>
                 </div>
               </div>
@@ -56,18 +56,18 @@ const Contact = () => {
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden animate-fade-in-delay-1">
             <div className="relative z-10">
               <h3 className="text-2xl font-heading font-bold text-slate-900 mb-4">
-                Request a Priority Inspection
+                Schedule Compliance Test
               </h3>
-              <p className="text-slate-600 mb-8">
-                Suspect a leak? Call our Asheville office immediately to schedule high-tech detection. Early action prevents foundation failure.
+              <p className="text-slate-600 mb-8 font-medium">
+                Call now to book your annual backflow test. We provide paperless reporting and same-day certification submittal to the Town of Cary.
               </p>
 
               <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 mb-8">
                 <div className="flex gap-4 items-start">
-                  <ShieldCheck className="w-6 h-6 text-blue-600 shrink-0" />
+                  <MailCheck className="w-6 h-6 text-blue-600 shrink-0" />
                   <div>
-                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">Local Guarantee</div>
-                    <p className="text-sm text-slate-600">All Asheville slab leak repairs are backed by our 100% service guarantee and maintenance warranty.</p>
+                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">Digital Submittal</div>
+                    <p className="text-sm text-slate-600">We electronically file your test report directly with the Town of Cary the same day the test is passed.</p>
                   </div>
                 </div>
               </div>

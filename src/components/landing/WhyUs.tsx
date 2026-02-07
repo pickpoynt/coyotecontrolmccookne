@@ -1,43 +1,43 @@
-import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap } from "lucide-react";
+import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, CheckCircle2 } from "lucide-react";
 
 const reasons = [
   {
-    icon: Shield,
-    title: "Licensed Specialists",
-    description: "Our plumbing experts are fully licensed in North Carolina with specialized certification in under-slab leak detection and foundation repair."
-  },
-  {
-    icon: Microscope,
-    title: "Advanced Technology",
-    description: "We use the latest sonar and thermal imaging devices to locate leaks through concrete and soil, ensuring we only dig where absolutely necessary."
-  },
-  {
-    icon: MapPin,
-    title: "Asheville Locals",
-    description: "Deeply familiar with Asheville's unique geographic challenges, from mountain soil shifting to historic West Asheville piping systems."
-  },
-  {
-    icon: Building2,
-    title: "Foundation Protection",
-    description: "Our methods prioritize the structural integrity of your home's foundation. We work cleanly and efficiently to preserve your property value."
+    icon: Award,
+    title: "Cary Certified",
+    description: "Our testers are fully certified and registered with the Town of Cary and Wake County water departments for official submittals."
   },
   {
     icon: ClipboardCheck,
-    title: "Upfront Pricing",
-    description: "No hidden fees. We provide clear, itemized estimates for both detection and repair, so you know the full cost before we start."
+    title: "On-Site Repairs",
+    description: "Fail the test? We carry most repair kits on our trucks, allowing us to fix common issues immediately and re-test on the same visit."
+  },
+  {
+    icon: MapPin,
+    title: "Local Local Specialists",
+    description: "Based in Wake County, we understand the specific local plumbing codes and testing requirements for Cary, Apex, and Morrisville."
+  },
+  {
+    icon: CheckCircle2,
+    title: "Automatic Reminders",
+    description: "Never miss a testing deadline again. We offer automated annual reminders to ensure your property remains compliant every year."
+  },
+  {
+    icon: Shield,
+    title: "Potable Protection",
+    description: "We are committed to protecting the community's drinking water from cross-contamination, siphonage, and back-pressure issues."
   },
   {
     icon: Zap,
-    title: "Rapid Response",
-    description: "Slab leaks don't wait. We provide priority scheduling for Asheville foundation emergencies to prevent catastrophic water damage."
+    title: "Next-Day Testing",
+    description: "Need your certification fast for a real estate closing or building permit? We offer priority scheduling for time-sensitive compliance."
   }
 ];
 
 const stats = [
-  { number: "500+", label: "Leaks Found" },
-  { number: "100%", label: "Licensed & Insured" },
-  { number: "24/7", label: "Emergency Support" },
-  { number: "Local", label: "Asheville, NC" }
+  { number: "2500+", label: "Tests Completed" },
+  { number: "100%", label: "Cary Compliant" },
+  { number: "Same-Day", label: "Reporting" },
+  { number: "Certified", label: "Testers" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Western NC's Preferred Leak Detection Team
+            Cary's Premier Backflow Testing Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Combining local expertise with high-tech diagnostic tools to provide Asheville homeowners with reliable, non-invasive slab leak solutions.
+            Combining certified technical skill with local regulatory knowledge to provide seamless, reliable backflow prevention services.
           </p>
         </div>
 

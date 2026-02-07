@@ -2,11 +2,12 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SlabLeakInfo from "@/components/landing/SlabLeakInfo";
+import BackflowInfo from "@/components/landing/BackflowInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
+import FloatingCallButton from "@/components/ui/FloatingCallButton";
 
 import { Helmet } from "react-helmet-async";
 
@@ -14,82 +15,86 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>slab leak repair asheville nc | Asheville Slab Leak Pros: Expert Detection & Repair</title>
-        <meta name="description" content="Expert slab leak repair asheville nc. Professional leak detection, under-slab plumbing, and foundation water leak repairs. Licensed plumbers serving Buncombe County. Call (877) 792-1410 today!" />
-        <meta name="keywords" content="slab leak repair asheville nc, leak detection Asheville, under slab plumbing repair NC, foundation leak repair Asheville, slab leak detection Western NC" />
-        <link rel="canonical" href="https://slab-leak-repair-asheville-nc.com/" />
+        <title>backflow testing cary nc | Cary Backflow Specialists: Certified Annual Testing</title>
+        <meta name="description" content="Certified backflow testing cary nc. Professional backflow preventer testing, repair, and installation. Town of Cary certified testers. Call (877) 792-1410 for annual certification!" />
+        <meta name="keywords" content="backflow testing cary nc, backflow preventer testing Cary, certified backflow tester NC, annual backflow certification Cary, irrigation backflow repair Cary" />
+        <link rel="canonical" href="https://backflow-testing-cary-nc.com/" />
+
+        {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Asheville Slab Leak Pros",
-            "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
+            "name": "Cary Backflow Specialists",
+            "image": "https://images.unsplash.com/photo-1541233349642-6e425fe6190e?auto=format&fit=crop&q=80",
             "telephone": "+1-877-792-1410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Asheville",
+              "addressLocality": "Cary",
               "addressRegion": "NC",
-              "postalCode": "28801",
+              "postalCode": "27511",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "35.5951",
-              "longitude": "-82.5515"
+              "latitude": "35.7915",
+              "longitude": "-78.7811"
             },
-            "openingHours": "Mo-Su 00:00-23:59",
+            "openingHours": "Mo-Fr 08:00-18:00",
             "serviceArea": {
               "@type": "Place",
-              "name": "Asheville, North Dakota"
+              "name": "Cary, North Carolina"
             },
-            "priceRange": "$$$",
-            "description": "Professional slab leak detection and repair services in Asheville, North Carolina. We use advanced acoustic technology to find and fix leaks beneath your foundation."
+            "priceRange": "$$",
+            "description": "Professional backflow prevention assembly testing and annual certification services for residential and commercial properties in Cary, NC."
           })}
         </script>
+
+        {/* JSON-LD schema for Service */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Slab Leak Repair",
+            "serviceType": "Backflow Testing and Certification",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Asheville Slab Leak Pros",
+              "name": "Cary Backflow Specialists",
               "telephone": "+1-877-792-1410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Asheville, North Carolina"
+              "name": "Cary, North Carolina"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Leak Detection & Repair Services",
+              "name": "Backflow Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electronic Slab Leak Detection"
+                    "name": "Annual Backflow Certification"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Under-Slab Pipe Repair"
+                    "name": "Backflow Preventer Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Foundation Leak Diagnosis"
+                    "name": "New Backflow Installation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Pipe Re-routing & Re-piping"
+                    "name": "Irrigation Backflow Testing"
                   }
                 }
               ]
@@ -98,31 +103,42 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="slab leak repair asheville nc | Asheville Slab Leak Pros" />
-        <meta property="og:description" content="Expert slab leak repair in Asheville, NC. Professional detection and repair of foundation water leaks using non-invasive technology. Call (877) 792-1410." />
+        <meta property="og:title" content="backflow testing cary nc | Cary Backflow Specialists" />
+        <meta property="og:description" content="Certified backflow testing in Cary, NC. Town of Cary backflow certification, repairs, and installations. Call (877) 792-1410." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://slab-leak-repair-asheville-nc.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://backflow-testing-cary-nc.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1541233349642-6e425fe6190e?auto=format&fit=crop&q=80" />
 
         {/* Twitter Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="slab leak repair asheville nc | Asheville Slab Leak Pros" />
-        <meta name="twitter:description" content="Professional slab leak repair in Asheville. Advanced detection and repair of under-slab plumbing issues." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
+        <meta name="twitter:title" content="backflow testing cary nc | Cary Backflow Specialists" />
+        <meta name="twitter:description" content="Professional backflow testing in Cary. Town of Cary certified technicians for annual compliance." />
+        <meta name="twitter:image" content="https://images.unsplash.com/photo-1541233349642-6e425fe6190e?auto=format&fit=crop&q=80" />
       </Helmet>
+
       <Header />
-      <Hero />
-      <Services />
-      <WhyUs />
-      <SlabLeakInfo />
-      <FAQ />
-      <Contact />
-      <RandomLinks />
+      <main>
+        <Hero
+          title={
+            <>
+              backflow testing cary nc
+              <span className="block text-blue-400 mt-2">Cary Backflow Specialists: Certified Compliance</span>
+            </>
+          }
+          subtitle="Keep your water supply safe and meet Town of Cary annual backflow testing requirements. We provide fast, certified testing and official documentation for all types of prevention assemblies. Licensed, bonded, and ready to help."
+          image="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80"
+        />
+        <Services />
+        <WhyUs />
+        <BackflowInfo />
+        <FAQ />
+        <Contact />
+        <RandomLinks />
+      </main>
       <Footer />
+      <FloatingCallButton />
     </div>
   );
 };
 
 export default Index;
-
-
