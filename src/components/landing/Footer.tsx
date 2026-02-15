@@ -7,17 +7,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-orange-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white">WESTLAKE PIPE</span>
-                <span className="text-sm font-medium text-orange-500 uppercase tracking-widest text-[10px]">INFRASTRUCTURE PROS</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white">ALONDRA PARK</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">JETTING PROS</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              Westlake Village's specialized cast iron pipe rehabilitation experts.
-              Protecting luxury property infrastructure across the region.
+              Alondra Park's high-pressure sewer restoration specialists.
+              Utilizing 4000 PSI technology for total blockage clearance.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Service Region</p>
                   <p className="text-white font-bold">
-                    Westlake Village & Ventura County
+                    Alondra Park & Los Angeles County
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} WESTLAKE VILLAGE PIPE PROS.
+            © {new Date().getFullYear()} ALONDRA PARK JETTING PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
@@ -101,19 +101,19 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Westlake Village Pipe Pros",
+          "name": "Alondra Park Hydro Jetting Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Westlake Village",
+            "addressLocality": "Alondra Park",
             "addressRegion": "CA",
-            "postalCode": "91361",
+            "postalCode": "90249",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "34.1458",
-            "longitude": "-118.8056"
+            "latitude": "33.8892",
+            "longitude": "-118.3306"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}

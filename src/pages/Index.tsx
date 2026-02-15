@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import WestlakeVillagePipeInfo from "@/components/landing/WestlakeVillagePipeInfo";
+import AlondraParkHydroJettingInfo from "@/components/landing/AlondraParkHydroJettingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Cast iron pipe replacement Westlake Village Westlake Village</title>
-        <meta name="description" content="Cast iron pipe replacement Westlake Village Westlake Village. Expert cast iron sewer line rehabilitation and replacement in Westlake Village, CA. Trenchless technology, pipe bursting, and master diagnostics. Call (877) 792-1410!" />
-        <meta name="keywords" content="Cast iron pipe replacement Westlake Village, Westlake Village cast iron plumbing, trenchless sewer repair Westlake Village, sewer line replacement Westlake Village" />
-        <link rel="canonical" href="https://westlake-pipe-pros.com/" />
+        <title>Hydro jetting sewer line Alondra Park Alondra Park</title>
+        <meta name="description" content="Hydro jetting sewer line Alondra Park Alondra Park. Expert high-pressure hydro jetting for residential and commercial sewer lines in Alondra Park, CA. 24/7 blockage clearance and precision diagnostics. Call (877) 792-1410!" />
+        <meta name="keywords" content="Hydro jetting sewer line Alondra Park, Alondra Park hydro jetting, sewer line cleaning Alondra Park, blocked drain Alondra Park, hydrojet sewer cleaning" />
+        <link rel="canonical" href="https://alondra-park-jetting-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Westlake Village Pipe Pros",
-            "image": "https://images.unsplash.com/photo-1542013936693-884638332a53?auto=format&fit=crop&q=80",
+            "name": "Alondra Park Hydro Jetting Pros",
+            "image": "https://images.unsplash.com/photo-1558227691-41ea78d1f631?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Westlake Village",
+              "addressLocality": "Alondra Park",
               "addressRegion": "CA",
-              "postalCode": "91361",
+              "postalCode": "90249",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "34.1458",
-              "longitude": "-118.8056"
+              "latitude": "33.8892",
+              "longitude": "-118.3306"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Westlake Village, CA"
+              "name": "Alondra Park, CA"
             },
-            "priceRange": "$$$",
-            "description": "Specialized cast iron pipe replacement and sewer line rehabilitation in Westlake Village, CA. We utilize trenchless technology to protect your property while restoring infrastructure."
+            "priceRange": "$$",
+            "description": "Professional high-pressure hydro jetting services in Alondra Park, CA. We specialize in total blockage clearance, root removal, and precision sewer line decontamination."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Cast Iron Pipe Replacement",
+            "serviceType": "Hydro Jetting Sewer Line Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Westlake Village Pipe Pros",
+              "name": "Alondra Park Hydro Jetting Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Westlake Village, CA"
+              "name": "Alondra Park, CA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Pipe Restoration Services",
+              "name": "Drain & Sewer Cleaning Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Trenchless Pipe Bursting"
+                    "name": "High-Pressure Sewer De-scaling"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "CIPP Sewer Lining"
+                    "name": "Invasive Root Pulverization"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Cast Iron Descaling & Restoration"
+                    "name": "Grease & Sludge Emulsification"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HD Camera Sewer Diagnostics"
+                    "name": "Full CCTV Pipe Restoration Verification"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Cast iron pipe replacement Westlake Village - Advanced Infrastructure Repair" />
-        <meta property="og:description" content="Expert cast iron sewer line replacement in Westlake Village. Trenchless technology and master plumbing diagnostics for high-end properties." />
+        <meta property="og:title" content="Hydro jetting sewer line Alondra Park - Professional Drain Clearance" />
+        <meta property="og:description" content="Expert hydro jetting in Alondra Park. Scour your sewer lines clean with 4000 PSI precision technology. Fast response for South Bay property owners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://westlake-pipe-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332a53?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://alondra-park-jetting-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1558227691-41ea78d1f631?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,17 +115,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Cast iron pipe replacement Westlake Village
-              <span className="block text-orange-400 mt-2 text-2xl md:text-3xl italic">Westlake Village Pipe Pros</span>
+              Hydro jetting sewer line Alondra Park
+              <span className="block text-blue-400 mt-2 text-2xl md:text-3xl italic">Alondra Park Hydro Jetting Pros</span>
             </>
           }
-          subtitle="Westlake Village's trusted authority for cast iron sewer rehabilitation. We provide advanced trenchless replacement, pipe bursting, and precision diagnostics. Professional Infrastructure Quality."
-          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1518005020455-1678229b9f34?auto=format&fit=crop&q=80"
+          subtitle="Alondra Park's premier authority for industrial-strength sewer cleaning. We provide high-pressure hydro jetting, invasive root removal, and precision camera analytics. Professional Quality Mastercraft."
+          image="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2669&auto=format&fit=crop"
+          overlayImage="https://images.unsplash.com/photo-1550985543-f47f547bda0f?auto=format&fit=crop&q=80"
+          badge="ALONDRA PARK HYDRO JETTING"
         />
         <Services />
         <WhyUs />
-        <WestlakeVillagePipeInfo />
+        <AlondraParkHydroJettingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
