@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BartlettPlumbingInfo from "@/components/landing/BartlettPlumbingInfo";
+import SlabLeakJacksonvilleInfo from "@/components/landing/SlabLeakJacksonvilleInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumber bartlett il Location</title>
-        <meta name="description" content="plumber bartlett il Location - Specialized plumbing solutions, leak detection & residential infrastructure services in Bartlett, IL. Call (877) 792-1410 for local experts." />
-        <meta name="keywords" content="plumber bartlett il, Bartlett plumber, plumbing repair Bartlett, emergency plumber Bartlett, Cook County plumbing, DuPage County plumbing" />
-        <link rel="canonical" href="https://bartlett-plumbing-pros.com/" />
+        <title>slab leak detection jacksonville fl Location</title>
+        <meta name="description" content="slab leak detection jacksonville fl Location - Specialized non-invasive slab leak detection, acoustic diagnostics & thermal imaging in Jacksonville, FL. Call (877) 792-1410 for local experts." />
+        <meta name="keywords" content="slab leak detection jacksonville fl, Jacksonville slab leak repair, foundation leak detection Jacksonville, acoustic leak detection Duval County, non-invasive plumbing Jacksonville" />
+        <link rel="canonical" href="https://jacksonville-slab-leak-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Bartlett Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=1200",
+            "name": "Jacksonville Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1504384308090-c89e959b9428?auto=format&fit=crop&q=80&w=1200",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Bartlett",
-              "addressRegion": "IL",
-              "postalCode": "60103",
+              "addressLocality": "Jacksonville",
+              "addressRegion": "FL",
+              "postalCode": "32202",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.9792",
-              "longitude": "-88.1848"
+              "latitude": "30.3322",
+              "longitude": "-81.6557"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Bartlett, IL"
+              "name": "Jacksonville, FL"
             },
-            "priceRange": "$$",
-            "description": "Professional residential plumbing services in Bartlett, Illinois. Specialized in technical diagnostics, infrastructure restoration, and master-licensed care for Tri-County property owners."
+            "priceRange": "$$$",
+            "description": "Professional non-invasive slab leak detection services in Jacksonville, Florida. Specialized in acoustic mapping, thermal imaging, and foundation protection for Duval County property owners."
           })}
         </script>
 
@@ -55,39 +55,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Technical Residential Plumbing",
+            "serviceType": "Technical Slab Leak Detection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Bartlett Plumbing Pros",
+              "name": "Jacksonville Slab Leak Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Bartlett, Illinois"
+              "name": "Jacksonville, Florida"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Bartlett Plumbing Services",
+              "name": "Slab Leak Diagnostics Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Cook & DuPage Co. Leak Diagnostics"
+                    "name": "Acoustic Foundation Mapping"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Bartlett District Pipe Restoration"
+                    "name": "Non-Invasive Thermal Leak Identification"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Technical Hard Water Optimization"
+                    "name": "Duval County Structural Moisture Analysis"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumber bartlett il Location - Bartlett Plumbing Pros" />
-        <meta property="og:description" content="Expert plumbing solutions in Bartlett, Illinois. Technical restoration and infrastructure maintenance for Tri-County residents." />
+        <meta property="og:title" content="slab leak detection jacksonville fl Location - Jacksonville Slab Leak Pros" />
+        <meta property="og:description" content="Expert non-invasive slab leak detection in Jacksonville, Florida. Protecting foundation integrity with advanced acoustic and thermal diagnostics." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bartlett-plumbing-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=1200" />
+        <meta property="og:url" content="https://jacksonville-slab-leak-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504384308090-c89e959b9428?auto=format&fit=crop&q=80&w=1200" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumber bartlett il Location
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Bartlett Plumbing Pros</span>
+              slab leak detection jacksonville fl Location
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Jacksonville Slab Leak Pros</span>
             </>
           }
-          subtitle="Bartlett's trusted authority for resilient home infrastructure in the Tri-County area. We provide precision diagnostics, technical restoration, and master-licensed support for Cook, DuPage, and Kane County property owners. Illinois Engineering Excellence."
-          image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=2000"
-          badge="BARTLETT AUTHORIZED PLUMBERS"
+          subtitle="Jacksonville's premier authority for non-invasive foundation diagnostics. We utilize acoustic mapping and thermal imagery to pinpoint sub-slab leaks without destructive excavation. Supporting Duval and St. Johns County structural integrity."
+          image="https://images.unsplash.com/photo-1541888941259-7bc3df903961?auto=format&fit=crop&q=80&w=2000"
+          overlayImage="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=2000"
+          badge="JACKSONVILLE AUTHORIZED SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <BartlettPlumbingInfo />
+        <SlabLeakJacksonvilleInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
