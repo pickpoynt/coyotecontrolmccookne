@@ -11,19 +11,19 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Plano Drain</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pipe Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Lansing Sewer</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Repair Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Plano's specialized drainage engineering experts. We provide master-grade drain pipe installation and sewer main replacement services across Collin County.
+              Lansing's specialized sewer engineering experts. We provide master-grade sewer line repair and trenchless pipe lining services across Ingham County.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Sewer Line Installation", "French Drain Systems", "Storm Drain Management", "Yard Drainage Correction"].map((item) => (
+              {["Trenchless Pipe Lining", "Sewer Camera Inspections", "Hydro Jetting Services", "Main Line Restoration"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  5800 Tennyson Pkwy<br />
-                  Plano, TX 75024
+                  124 W Allegan St<br />
+                  Lansing, MI 48933
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Plano Drain Pipe Pros. All rights reserved. Collin County Drainage Authorities.
+            © {new Date().getFullYear()} Lansing Sewer Repair Pros. All rights reserved. Ingham County Sewer Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Plano Drain Pipe Pros",
+          "name": "Lansing Sewer Repair Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "5800 Tennyson Pkwy",
-            "addressLocality": "Plano",
-            "addressRegion": "TX",
-            "postalCode": "75024",
+            "streetAddress": "124 W Allegan St",
+            "addressLocality": "Lansing",
+            "addressRegion": "MI",
+            "postalCode": "48933",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "33.0198",
-            "longitude": "-96.6989"
+            "latitude": "42.7336",
+            "longitude": "-84.5555"
           },
           "telephone": "+18777921410",
-          "url": "https://drain-pipe-installation-plano.com/"
+          "url": "https://sewer-line-repair-lansing.com/"
         })}
       </script>
     </footer>

@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Drainage Services</span>
+            Comprehensive <span className="text-indigo-600">Sewer Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Plano property owners trust us for master-grade drain pipe engineering and precision sewer main restoration. We provide specialized care for Collin County.
+            Lansing property owners trust us for master-grade sewer line engineering and precision main line restoration. We provide specialized care for Ingham County.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Pipe Installation",
-              description: "We install high-density polyethylene and PVC sewer mains designed to withstand the shifting clay soils of North Texas with extreme engineering precision.",
+              title: "Trenchless Repair",
+              description: "We utilize CIPP lining technology to restore sewer mains from the inside out, avoiding the need for deep excavation in Lansing neighborhoods.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Sewer Replacement",
-              description: "Specialized residential sewer line restoration that addresses collapsed pipes and prevents further property flooding and foundation erosion.",
+              title: "Main Line Replacement",
+              description: "Specialized residential sewer line restoration that addresses collapsed or bellied pipes and prevents further property damage and sinkholes.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Yard Drainage",
-              description: "High-performance French drain systems and surface water management designed specifically for the unique topography of Plano estates.",
+              title: "Digital Inspections",
+              description: "High-resolution sewer camera scans designed to identify structural fissures and root intrusions specifically in Lansing's cast iron systems.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Emergency Service",
-              description: "Major drainage failures are critical. Our 24/7 Plano team is ready to tackle urgent main line collapses and severe yard flooding emergencies.",
+              title: "Hydro Jetting",
+              description: "High-velocity water scouring to eliminate stubborn obstructions and industrial-scale root blockages in Ingham County main lines.",
               link: "#contact"
             }
           ].map((service, index) => (

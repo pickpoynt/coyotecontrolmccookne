@@ -6,15 +6,15 @@ const WhyUs = () => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold-500 to-transparent opacity-50" />
 
       {/* Background Texture */}
-      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1541944743827-e04bb645d99d?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1541604193435-2258789965d8?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Plano Trusts Our <span className="text-indigo-400">Drainage Experts</span>
+            Why Lansing Trusts Our <span className="text-indigo-400">Sewer Experts</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Collin County estates with engineering precision. We specialize in advanced master-grade drain pipe installation and rapid local support for Plano property owners.
+            Protecting Ingham County homes with master-grade engineering. We specialize in advanced trenchless sewer line repair and rapid local support for Lansing property owners.
           </p>
         </div>
 
@@ -22,23 +22,23 @@ const WhyUs = () => {
           {[
             {
               icon: ShieldCheck,
-              title: "Engineering Precision",
-              description: "We utilize advanced technical specifications to install high-performance drainage systems that withstand the shifting soils of North Texas."
+              title: "Clinical Precision",
+              description: "We utilize advanced fiber-optic diagnostics to identify sewer breaches with surgical accuracy, minimizing destructive digging on your Michigan property."
             },
             {
               icon: MapPin,
-              title: "Plano Local",
-              description: "Our teams are based in Collin County, meaning rapid response times when drainage failures and yard flooding appear in the Plano area."
+              title: "Lansing Local",
+              description: "Our teams are based in Ingham County, meaning rapid response times when sewer backups and main line failures occur in the Lansing area."
             },
             {
               icon: Calendar,
-              title: "Rapid Installation",
-              description: "Main line collapses are immediate threats to property integrity. We offer priority dispatching for Plano sewer and drain pipe assessments."
+              title: "Trenchless Solutions",
+              description: "Modern pipe lining technologies that eliminate the need for heavy excavation, preserving your Lansing landscaping and hardscaping."
             },
             {
               icon: DollarSign,
               title: "Transparent Pricing",
-              description: "Honest, detailed technical assessments. We provide clear scopes and upfront pricing for any necessary drainage system installation."
+              description: "Honest, detailed technical assessments. We provide clear scopes and upfront pricing for any necessary sewer main restoration projects."
             }
           ].map((feature, index) => (
             <div
@@ -58,9 +58,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Drainage Emergency?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Sewer Crisis?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for property flooding. Our Plano specialist team is ready to restore your systems 24/7.
+              Don't wait for property damage. Our Lansing specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a

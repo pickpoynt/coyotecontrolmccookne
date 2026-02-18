@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency drain pipe installation in Plano?",
-    answer: "Yes. Our Plano teams are available 24/7 for technical drainage diagnostics and main line restoration. We provide rapid support across Collin County to stabilize your property and stop yard flooding."
+    question: "Do you offer emergency sewer repair in Lansing?",
+    answer: "Yes. Our Lansing teams are available 24/7 for technical main line diagnostics and localized restoration. We provide rapid support across Ingham County to stabilize your system and stop raw sewage backups."
   },
   {
-    question: "How do you install pipes in Plano's heavy clay soil?",
-    answer: "We utilize specialized high-density polyethylene (HDPE) and PVC materials engineered to withstand soil shifting. Our installation process includes proper bedding and grade correction to ensure long-term flow integrity."
+    question: "What is trenchless sewer repair for Lansing homes?",
+    answer: "Trenchless repair, or CIPP lining, allows us to restore your sewer line without digging up your yard. We insert a resin-saturated liner into the existing pipe, which hardens into a durable, seamless new pipe."
   },
   {
-    question: "Are your technicians licensed for Texas drainage projects?",
-    answer: "Absolutely. Our technicians are fully licensed master plumbers and drainage specialists who adhere strictly to Texas building codes and Plano municipal standards."
+    question: "Are your technicians licensed for Michigan sewer projects?",
+    answer: "Absolutely. Our technicians are fully licensed master plumbers and sewer specialists who adhere strictly to Michigan building codes and Lansing municipal standards."
   },
   {
-    question: "How long does a typical sewer line replacement in Plano take?",
-    answer: "Most residential drain pipe installations can be completed in 1-3 days depending on the scope. Our team focuses on rapid, efficient installation to minimize disruption to your property."
+    question: "How long does a typical main line restoration in Lansing take?",
+    answer: "Most trenchless sewer restorations can be completed in a single day. Conventional excavation may take longer, but our team focuses on rapid, high-performance results to minimize disruption."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Plano <span className="text-indigo-600">FAQ</span>
+            Lansing <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about drain pipe installation and sewer line replacement in Plano, Texas.
+            Answers to common questions about sewer line repair and trenchless restoration in Lansing, Michigan.
           </p>
         </div>
 
