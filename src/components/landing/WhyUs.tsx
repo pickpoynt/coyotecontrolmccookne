@@ -65,11 +65,11 @@ const WhyUs = () => {
           <div className="relative">
             <div className="aspect-square rounded-[3rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl shadow-indigo-500/20 relative group">
               <img
-                src="https://storage.googleapis.com/test-media-u/u/3b0a6af5-8167-42c6-94e8-89f5bc7013fc.png"
+                src="/ultra-realistic-photo-of-a-professional-plumber-pe(1).jpeg"
                 alt="Southlake Electronic Leak Detection"
-                className="w-full h-full object-cover opacity-60 transition-all duration-700 group-hover:scale-110"
+                className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-indigo-900/20 mix-blend-multiply group-hover:bg-transparent transition-all" />
+              <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all" />
 
               <div className="absolute bottom-8 left-8 right-8 bg-slate-900/90 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
                 <p className="text-indigo-400 font-bold uppercase tracking-widest text-xs mb-3">Foundation Crisis?</p>

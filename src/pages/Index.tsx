@@ -114,7 +114,7 @@ const Index = () => {
             </>
           }
           subtitle="Southlake's premier experts in master-grade electronic slab leak detection and foundation restoration. We design high-performance plumbing solutions tailored for North Texas's shifting clay conditions, ensuring long-term structural integrity. Engineering excellence for Tarrant County."
-          image="https://storage.googleapis.com/test-media-u/u/f0f3930e-56e6-4277-bc6f-7ee3f9f7408d.png"
+          image="/ultra-realistic-photo-of-a-professional-plumber-pe.jpeg"
           overlayImage="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80"
           badge="SOUTHLAKE SLAB LEAK RESTORATION SPECIALISTS"
         />
