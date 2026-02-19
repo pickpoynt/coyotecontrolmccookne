@@ -1,8 +1,8 @@
-import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, Locate, Search, Clock, Zap, Target } from "lucide-react";
+import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, Locate, Search, Clock, Zap, Target, Filter } from "lucide-react";
 
-const TurbevilleSlabLeakInfo = () => {
+const LasVegasWaterSoftenerInfo = () => {
     return (
-        <section id="turbeville-slab-leak-info" className="py-24 bg-white relative overflow-hidden">
+        <section id="las-vegas-water-softener-info" className="py-24 bg-white relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
@@ -11,13 +11,13 @@ const TurbevilleSlabLeakInfo = () => {
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 mb-6 uppercase tracking-widest text-xs font-bold">
                             <Locate className="w-4 h-4" />
-                            <span>Clarendon County Foundation Specialists</span>
+                            <span>Clark County Water Quality Specialists</span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                            Precision <span className="text-blue-600">Slab Leak Repair</span> in Turbeville
+                            Expert <span className="text-blue-600">Water Softener Repair</span> in Las Vegas
                         </h2>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed italic font-medium">
-                            Protecting the homes and heritage of Turbeville. We specialize in advanced electronic diagnostics and non-destructive restoration for sub-foundation water line failures across the South Carolina Coastal Plain.
+                            Conquering the Mojave's hardest water. We provide specialized diagnostics and precision repair for residential water softening and filtration systems throughout the Las Vegas Valley.
                         </p>
                     </div>
 
@@ -28,41 +28,41 @@ const TurbevilleSlabLeakInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <Construction className="w-7 h-7 text-blue-600" />
-                                    Turbeville Structural Plumbing
+                                    Las Vegas Water Solutions
                                 </h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
                                         <div className="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0">
-                                            <Target className="w-5 h-5 text-blue-600" />
+                                            <Filter className="w-5 h-5 text-blue-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Acoustic Signal Mapping</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Resin Tank Rejuvenation</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                By isolating the specific frequency of water escaping from pressurized lines under your Turbeville home, we can locate leaks with pinpoint accuracy, saving you from unnecessary flooring damage.
+                                                In Las Vegas, high mineral content can cause resin beads to foul prematurely. We perform deep cleaning and regeneration to restore your system's efficiency without a full replacement.
                                             </p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
                                         <div className="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0">
-                                            <Activity className="w-5 h-5 text-blue-600" />
+                                            <Zap className="w-5 h-5 text-blue-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Infrared Thermal Profiling</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Control Valve Calibration</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Our technicians use high-sensitivity thermal cameras to detect heat anomalies on your foundation, identifying hidden hot water line leaks that contribute to soil destabilization.
+                                                Our technicians specialize in the intricate digital and mechanical control valves that manage your regeneration cycles, ensuring peak performance and minimal salt waste.
                                             </p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
                                         <div className="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0">
-                                            <Search className="w-5 h-5 text-blue-600" />
+                                            <Droplets className="w-5 h-5 text-blue-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Sub-Slab Pressure Correlation</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Salt Bridge Clearance</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                We perform meticulous pressure testing on individual line segments to confirm the presence and severity of leaks before initiating any restoration work.
+                                                Extreme desert heat can lead to salt bridging or mushing in your brine tank. We safely clear these blockages and adjust settings to prevent recurring issues.
                                             </p>
                                         </div>
                                     </div>
@@ -75,21 +75,21 @@ const TurbevilleSlabLeakInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <MapPin className="w-7 h-7 text-blue-600" />
-                                    Turbeville & Clarendon County Areas
+                                    Serving the Las Vegas Valley
                                 </h3>
                                 <p className="text-slate-600 mb-6 leading-relaxed font-medium">
-                                    Providing rapid, technical leak diagnostics for Turbeville and the surrounding Santee region:
+                                    Providing rapid, technical water treatment services for Las Vegas and surrounding Clark County:
                                 </p>
                                 <div className="grid grid-cols-2 gap-3">
                                     {[
-                                        "Turbeville Center",
-                                        "Manning",
-                                        "Summerton",
-                                        "New Zion",
-                                        "Olanta",
-                                        "Lake City",
-                                        "Gable",
-                                        "Barrineau"
+                                        "Summerlin",
+                                        "Henderson",
+                                        "North Las Vegas",
+                                        "Enterprise",
+                                        "Spring Valley",
+                                        "Paradise",
+                                        "Green Valley",
+                                        "Centennial Hills"
                                     ].map((area, index) => (
                                         <div key={index} className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-100 shadow-sm">
                                             <div className="w-2 h-2 rounded-full bg-blue-500" />
@@ -102,9 +102,9 @@ const TurbevilleSlabLeakInfo = () => {
                             {/* UNIQUE GEOLOGICAL CONTENT */}
                             <div className="p-8 bg-blue-600 rounded-3xl text-white shadow-xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16" />
-                                <h4 className="text-xl font-bold mb-4 uppercase tracking-tight">The Lowcountry Soil Dynamic</h4>
+                                <h4 className="text-xl font-bold mb-4 uppercase tracking-tight">The Mojave Mineral Challenge</h4>
                                 <p className="text-blue-50 text-sm leading-relaxed italic">
-                                    Turbeville is situated on the sandy loam of the South Carolina Coastal Plain. While these soils drain well, they are prone to shifting during heavy Atlantic rain events. This movement can stress aging plumbing lines buried beneath your slab, leading to hairline fractures and pressure drops. Our diagnostics are calibrated specifically for this local geological profile.
+                                    Las Vegas water is sourced primarily from Lake Mead and is classified as "extremely hard" due to high concentrations of calcium and magnesium carbonate. Without a functioning softener, this mineral load can destroy water heaters and plumbing fixtures within years. Our repair strategies are specifically engineered to handle the relentless scale buildup unique to the Southern Nevada desert.
                                 </p>
                             </div>
                         </div>
@@ -116,24 +116,24 @@ const TurbevilleSlabLeakInfo = () => {
                         <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
                             <div>
                                 <h3 className="text-3xl font-bold mb-4 uppercase tracking-tight flex items-center gap-3">
-                                    Suspicious Water Bill?
+                                    Noticeable White Scale?
                                 </h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 italic">
-                                    In the Clarendon County area, foundation movement is a primary cause of silent slab leaks. If you notice damp spots or a drop in water pressure, our Turbeville team is ready with master-grade acoustic equipment.
+                                    In the Las Vegas area, a failing water softener isn't just an inconvenience—it's a threat to your home's infrastructure. If you see spots on dishes or scale on showerheads, our expert team is ready to restore your system.
                                 </p>
                                 <div className="flex flex-wrap gap-4">
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Slab Certified</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Clarendon County Local</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Non-Invasive Logic</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">NV State Licensed</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Clark County Local</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Hard Water Specialists</div>
                                 </div>
                             </div>
                             <div className="bg-blue-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform border border-blue-400/30 shadow-2xl">
-                                <p className="text-blue-100 text-sm font-bold uppercase tracking-widest mb-2">Emergency Service Available</p>
+                                <p className="text-blue-100 text-sm font-bold uppercase tracking-widest mb-2">Service Available Daily</p>
                                 <a href="tel:8777921410" className="text-4xl font-bold transition-colors block mb-4 hover:text-white">
                                     (877) 792-1410
                                 </a>
                                 <p className="text-blue-100 text-sm italic font-medium">
-                                    Master-Grade Foundation Restoration Turbeville
+                                    Master-Grade Water Treatment Las Vegas
                                 </p>
                             </div>
                         </div>
@@ -144,4 +144,4 @@ const TurbevilleSlabLeakInfo = () => {
     );
 };
 
-export default TurbevilleSlabLeakInfo;
+export default LasVegasWaterSoftenerInfo;

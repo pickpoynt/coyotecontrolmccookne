@@ -19,33 +19,33 @@ const WhyUs = () => {
           <div>
             <span className="text-indigo-400 font-bold tracking-widest uppercase text-sm mb-4 block">Unmatched Precision</span>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-8 leading-tight uppercase tracking-tight">
-              Why Turbeville Trusts <br />
-              <span className="text-indigo-500">Our Leak Experts</span>
+              Why Las Vegas Trusts <br />
+              <span className="text-indigo-500">Our Water Experts</span>
             </h2>
             <p className="text-xl text-slate-300 mb-10 leading-relaxed font-light italic">
-              We bring master-grade engineering to every diagnostic bridge. Our team is dedicated to preserving Turbeville property value through technical excellence and non-invasive sub-slab restoration.
+              We bring master-grade engineering to every water softening system. Our team is dedicated to preserving your home's infrastructure through technical excellence and precision system tuning.
             </p>
 
             <div className="grid gap-6">
               {[
                 {
-                  title: "Clinical Accuracy",
-                  description: "Our electronic triangulation equipment identifies leaks with +/- 6 inch precision, preventing unnecessary slab destruction.",
+                  title: "Engineering Precision",
+                  description: "Our digital calibration equipment optimizes resin regeneration cycles with +/- 1% accuracy, preventing salt waste and system fouling.",
                   icon: Target
                 },
                 {
-                  title: "Turbeville Local",
-                  description: "Based in the heart of Turbeville, SC. We understand the specific soil shifting patterns that cause Clarendon County slab failures.",
+                  title: "Las Vegas Local",
+                  description: "Based in the heart of the Vegas Valley. We understand the extreme hardness levels and Mojave climate shifts that impact NV systems.",
                   icon: MapPin
                 },
                 {
-                  title: "Rapid Detection",
-                  description: "Emergency diagnostic teams deployed immediately across Clarendon County to stabilize critical foundation water breaches.",
+                  title: "Rapid Deployment",
+                  description: "Emergency service teams deployed immediately across Clark County to stabilize failing water treatment and filtration systems.",
                   icon: Clock
                 },
                 {
-                  title: "Technical Valve",
-                  description: "Master-level plumbing certification in South Carolina, ensuring all repairs meet the highest structural and municipal standards.",
+                  title: "Technical License",
+                  description: "Master-level water treatment certification in Nevada, ensuring all repairs meet the highest purity and municipal standards.",
                   icon: ShieldCheck
                 }
               ].map((item, index) => (
@@ -66,17 +66,17 @@ const WhyUs = () => {
             <div className="aspect-square rounded-[3rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl shadow-indigo-500/20 relative group">
               <img
                 src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
-                alt="Turbeville Electronic Leak Detection"
+                alt="Las Vegas Water Softener Repair"
                 className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all" />
 
               <div className="absolute bottom-8 left-8 right-8 bg-slate-900/90 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
-                <p className="text-indigo-400 font-bold uppercase tracking-widest text-xs mb-3">Foundation Crisis?</p>
-                <h4 className="text-2xl font-bold text-white mb-4 uppercase tracking-tight leading-tight">Emergency Slab Scans</h4>
+                <p className="text-indigo-400 font-bold uppercase tracking-widest text-xs mb-3">System Crashing?</p>
+                <h4 className="text-2xl font-bold text-white mb-4 uppercase tracking-tight leading-tight">Emergency Water Scans</h4>
                 <div className="flex items-center gap-4">
                   <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-12 px-6 rounded-xl uppercase tracking-widest text-xs" asChild>
-                    <a href="tel:8777921410">Call Turbeville Team</a>
+                    <a href="tel:8777921410">Call Vegas Team</a>
                   </Button>
                 </div>
               </div>

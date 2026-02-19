@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Slab Leak Solutions</span>
+            Comprehensive <span className="text-indigo-600">Softener Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Turbeville property owners trust us for master-grade electronic leak detection and precision foundation restoration. We provide specialized care for Clarendon County.
+            Las Vegas property owners trust us for master-grade water softener repair and precision system maintenance. We provide specialized care for Clark County.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Electronic Detection",
-              description: "We utilize advanced frequency triangulation to identify sub-slab water breaches with clinical accuracy, avoiding unnecessary excavation in Turbeville homes.",
+              title: "System Diagnostics",
+              description: "We utilize advanced testing tools to identify resin fouling or valve malfunctions with clinical accuracy, avoiding unnecessary system replacement in Vegas homes.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Sub-Slab Repair",
-              description: "Specialized residential pipe restoration that addresses pressurized leaks beneath concrete foundations, preventing structural erosion and sinkholes.",
+              title: "Valve Restoration",
+              description: "Specialized residential valve repair that addresses pressure drops and cycle failures beneath the desert sun, preventing salt waste and water loss.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Thermal Scanning",
-              description: "High-resolution infrared diagnostics designed to identify hot water line breaks specifically under South Carolina's unique geological conditions.",
+              title: "Tank Maintenance",
+              description: "High-resolution system inspections designed to identify salt bridging and resin issues specifically under Nevada's extreme hard water conditions.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Non-Invasive Fixes",
-              description: "Technical pipe rerouting and epoxy lining solutions that eliminate the need to cut through your finished flooring and concrete slab.",
+              title: "Filter Replacement",
+              description: "Technical carbon and sediment filter solutions that eliminate the Mojave's chlorine taste and mineral odors from your home's water supply.",
               link: "#contact"
             }
           ].map((service, index) => (
