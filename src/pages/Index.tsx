@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import EugeneDrainCleaningInfo from "@/components/landing/EugeneDrainCleaningInfo";
+import JacksonDrainCleaningInfo from "@/components/landing/JacksonDrainCleaningInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -15,33 +15,33 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>drain cleaning eugene - Eugene Drain Cleaning Pros</title>
-        <meta name="description" content="drain cleaning eugene - High-tech professional drain cleaning eugene. Expert plumbers clearing blockages in Eugene, OR. Call 877-792-1410 for 24/7 service." />
-        <meta name="keywords" content="drain cleaning eugene, Eugene plumber, drain clearing Lane County, sewer service OR, root removal Eugene" />
-        <link rel="canonical" href="https://eugene-draincleaning-pros.com/" />
+        <title>drain cleaning jackson mi - Jackson Drain Cleaning Pros</title>
+        <meta name="description" content="drain cleaning jackson mi - Professional high-tech drain cleaning jackson mi. Expert plumbers clearing blockages in Jackson, MI. Call 877-792-1410 for 24/7 service." />
+        <meta name="keywords" content="drain cleaning jackson mi, Jackson plumber, drain clearing Jackson County, sewer service MI, root removal Jackson" />
+        <link rel="canonical" href="https://jacksondraincleaningpros.com/" />
 
         {/* Structured Data Schemas */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Eugene Drain Cleaning Pros",
-            "image": "/1.jpeg",
-            "@id": "https://eugene-draincleaning-pros.com/",
-            "url": "https://eugene-draincleaning-pros.com/",
+            "name": "Jackson Drain Cleaning Pros",
+            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
+            "@id": "https://jacksondraincleaningpros.com/",
+            "url": "https://jacksondraincleaningpros.com/",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "1010 Willamette St",
-              "addressLocality": "Eugene",
-              "addressRegion": "OR",
-              "postalCode": "97401",
+              "streetAddress": "110 N Mechanic St",
+              "addressLocality": "Jackson",
+              "addressRegion": "MI",
+              "postalCode": "49201",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "44.0521",
-              "longitude": "-123.0868"
+              "latitude": "42.2459",
+              "longitude": "-84.4013"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -68,11 +68,11 @@ const Index = () => {
             "serviceType": "Drain Cleaning Service",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Eugene Drain Cleaning Pros"
+              "name": "Jackson Drain Cleaning Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Eugene, OR"
+              "name": "Jackson, MI"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -105,11 +105,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="drain cleaning eugene - Eugene Drain Cleaning Pros" />
-        <meta property="og:description" content="drain cleaning eugene - Expert professional drain cleaning eugene. High-tech solutions for local homeowners." />
+        <meta property="og:title" content="drain cleaning jackson mi - Jackson Drain Cleaning Pros" />
+        <meta property="og:description" content="drain cleaning jackson mi - Expert professional drain cleaning jackson mi. High-tech solutions for local homeowners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://eugene-draincleaning-pros.com/" />
-        <meta property="og:image" content="/1.jpeg" />
+        <meta property="og:url" content="https://jacksondraincleaningpros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -118,17 +118,17 @@ const Index = () => {
           title={
             <>
               drain cleaning <br />
-              <span className="text-white drop-shadow-sm">eugene</span>
+              <span className="text-white drop-shadow-sm">jackson mi</span>
             </>
           }
-          subtitle="Eugene's elite technical drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout Lane County's unique landscapes."
-          image="/1.jpeg"
-          overlayImage="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80"
-          badge="LANE COUNTY DRAINAGE SPECIALISTS"
+          subtitle="Jackson's industrial-grade drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout Mid-Michigan's residential networks."
+          image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&q=80"
+          badge="JACKSON COUNTY DRAINAGE SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <EugeneDrainCleaningInfo />
+        <JacksonDrainCleaningInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

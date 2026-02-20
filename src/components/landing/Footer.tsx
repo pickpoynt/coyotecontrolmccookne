@@ -11,12 +11,12 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Eugene Drain Cleaning</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Jackson Drain Cleaning</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Eugene's specialized technical drain cleaning experts. We provide professional unclogging, root removal, and line descaling across Lane County.
+              Jackson's specialized technical drain cleaning experts. We provide professional unclogging, root removal, and line descaling across Jackson County.
             </p>
           </div>
 
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  1010 Willamette St<br />
-                  Eugene, OR 97401
+                  110 N Mechanic St<br />
+                  Jackson, MI 49201
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Eugene Drain Cleaning Pros. All rights reserved. Lane County Professional Technicians.
+            © {new Date().getFullYear()} Jackson Drain Cleaning Pros. All rights reserved. Jackson County Professional Technicians.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Eugene Drain Cleaning Pros",
+          "name": "Jackson Drain Cleaning Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "1010 Willamette St",
-            "addressLocality": "Eugene",
-            "addressRegion": "OR",
-            "postalCode": "97401",
+            "streetAddress": "110 N Mechanic St",
+            "addressLocality": "Jackson",
+            "addressRegion": "MI",
+            "postalCode": "49201",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "44.0521",
-            "longitude": "-123.0868"
+            "latitude": "42.2459",
+            "longitude": "-84.4013"
           },
           "telephone": "+18777921410",
-          "url": "https://eugene-draincleaning-pros.com/"
+          "url": "https://jacksondraincleaningpros.com/"
         })}
       </script>
     </footer>

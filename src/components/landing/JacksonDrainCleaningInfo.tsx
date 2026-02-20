@@ -1,8 +1,8 @@
-import { Wrench, Droplet, Thermometer, Shield, Clock, Award, MapPin, Phone, Zap, Search } from "lucide-react";
+import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, Locate, Search, Clock, Zap, Target, Filter, Waves } from "lucide-react";
 
-const TorringtonPlumbingInfo = () => {
+const JacksonDrainCleaningInfo = () => {
     return (
-        <section id="torrington-plumbing-info" className="py-24 bg-white relative overflow-hidden">
+        <section id="jackson-drain-cleaning-info" className="py-24 bg-white relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
@@ -10,59 +10,59 @@ const TorringtonPlumbingInfo = () => {
                     {/* Header */}
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
-                            <Search className="w-4 h-4" />
-                            <span>Litchfield County Specialists</span>
+                            <Locate className="w-4 h-4" />
+                            <span>Jackson County Drain Specialists</span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                            Expert <span className="text-indigo-600">Plumbing Solutions</span> in Torrington
+                            Expert <span className="text-indigo-600">drain cleaning jackson mi</span>
                         </h2>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed italic font-medium">
-                            From the historic homes near downtown to the properties along the Naugatuck River, we provide precision plumbing services tailored to Torrington's diverse infrastructure.
+                            Conquering Mid-Michigan's toughest blockages. We provide specialized drain cleaning jackson mi for residential and commercial properties throughout Jackson and the surrounding area.
                         </p>
                     </div>
 
                     {/* Main Content Grid */}
                     <div className="grid md:grid-cols-2 gap-12 mb-16">
-                        {/* Left Column - Priority Response */}
+                        {/* Left Column - Service Excellence */}
                         <div className="space-y-8">
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
-                                    <Clock className="w-7 h-7 text-indigo-600" />
-                                    Torrington Priority Response
+                                    <Construction className="w-7 h-7 text-indigo-600" />
+                                    Jackson's Precision Clearing
                                 </h3>
                                 <div className="space-y-4">
+                                    <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
+                                        <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
+                                            <Waves className="w-5 h-5 text-indigo-600" />
+                                        </div>
+                                        <div>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">High-Torque Descaling</h4>
+                                            <p className="text-slate-600 text-sm leading-relaxed">
+                                                Our industrial-grade mechanical tools blast through grease, sludge, and calcium scale buildup, restoring your Jackson pipes to like-new condition without using harmful chemicals.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
                                         <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
                                             <Zap className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Rapid Emergency Dispatch</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Advanced Root Management</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Our local teams are ready to deploy immediately to any neighborhood in Torrington, ensuring fast relief from burst pipes, major leaks, and sewer backups.
+                                                Jackson's tree-lined streets often lead to root invasion in sewer lines. Our specialized clearing heads effectively sever and flush out roots, preventing major pipe failure.
                                             </p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
                                         <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
-                                            <Shield className="w-5 h-5 text-indigo-600" />
+                                            <Droplets className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Historic & Modern Expertise</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Full-Diameter Restoration</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Whether you have a Victorian-era home needing pipe retrofitting or a modern build requiring high-efficiency fixture installation, our licensed plumbers have the expertise.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
-                                        <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
-                                            <Search className="w-5 h-5 text-indigo-600" />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Water Heater Specialists</h4>
-                                            <p className="text-slate-600 text-sm leading-relaxed">
-                                                We specialize in water heater repair and replacement, ensuring Torrington residents have reliable hot water during the cold Litchfield County winters.
+                                                We don't just clear a path through the clog; we restore the full diameter of your pipes for long-lasting flow reliability and peace of mind in Jackson residential systems.
                                             </p>
                                         </div>
                                     </div>
@@ -70,26 +70,26 @@ const TorringtonPlumbingInfo = () => {
                             </div>
                         </div>
 
-                        {/* Right Column - Local Reach */}
+                        {/* Right Column - Local Expertise */}
                         <div className="space-y-8">
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <MapPin className="w-7 h-7 text-indigo-600" />
-                                    Serving All of Torrington
+                                    Serving Jackson & Jackson County
                                 </h3>
-                                <p className="text-slate-600 mb-6 leading-relaxed">
-                                    We are proud to serve the entire Torrington community and surrounding areas:
+                                <p className="text-slate-600 mb-6 leading-relaxed font-medium">
+                                    Providing rapid response drain cleaning jackson mi for Jackson and surrounding communities:
                                 </p>
                                 <div className="grid grid-cols-2 gap-3">
                                     {[
-                                        "Downtown Torrington",
-                                        "Torringford",
-                                        "West Torrington",
-                                        "Drakeville",
-                                        "Wrightville",
-                                        "Burrville",
-                                        "Newfield",
-                                        "Litchfield County"
+                                        "Blackman",
+                                        "Michigan Center",
+                                        "Vandercook Lake",
+                                        "Summit Township",
+                                        "Leoni Township",
+                                        "Spring Arbor",
+                                        "Grass Lake",
+                                        "Parma"
                                     ].map((area, index) => (
                                         <div key={index} className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-100 shadow-sm">
                                             <div className="w-2 h-2 rounded-full bg-indigo-500" />
@@ -98,33 +98,42 @@ const TorringtonPlumbingInfo = () => {
                                     ))}
                                 </div>
                             </div>
+
+                            {/* UNIQUE LOCAL CONTENT */}
+                            <div className="p-8 bg-indigo-600 rounded-3xl text-white shadow-xl relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16" />
+                                <h4 className="text-xl font-bold mb-4 uppercase tracking-tight">The Mid-Michigan Infrastructure Advantage</h4>
+                                <p className="text-indigo-50 text-sm leading-relaxed italic">
+                                    With Jackson's rich history and established neighborhoods, maintaining older plumbing systems is critical. Our drain cleaning jackson mi processes are designed to be safe for historic pipes, using non-invasive mechanical removal to protect both your property and Jackson's local environment.
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Call to Action Box */}
+                    {/* Technical Box */}
                     <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
                         <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
                             <div>
                                 <h3 className="text-3xl font-bold mb-4 uppercase tracking-tight flex items-center gap-3">
-                                    Torrington's Plumbing Pros
+                                    Slow Drains or Backups?
                                 </h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 italic">
-                                    Reliable service when you need it most. Trust our licensed and insured team for all your plumbing needs in Torrington.
+                                    If your drains are sluggish or making gurgling noises, an obstruction is likely. Our Jackson drain cleaning specialists are ready to deploy 24/7 to restore your home's flow.
                                 </p>
                                 <div className="flex flex-wrap gap-4">
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Licensed & Insured</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Local Experts</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Pricing Transparency</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Michigan Licensed</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Jackson County Local</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Drain Experts</div>
                                 </div>
                             </div>
-                            <div className="bg-indigo-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform">
-                                <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">24/7 Emergency Line</p>
-                                <a href="tel:8777921410" className="text-4xl font-bold transition-colors block mb-4">
+                            <div className="bg-indigo-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform border border-indigo-400/30 shadow-2xl">
+                                <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">24/7 Service Available</p>
+                                <a href="tel:8777921410" className="text-4xl font-bold transition-colors block mb-4 hover:text-white">
                                     (877) 792-1410
                                 </a>
-                                <p className="text-indigo-100 text-sm italic">
-                                    Priority Service in Torrington
+                                <p className="text-indigo-100 text-sm italic font-medium">
+                                    Professional drain cleaning jackson mi
                                 </p>
                             </div>
                         </div>
@@ -135,4 +144,4 @@ const TorringtonPlumbingInfo = () => {
     );
 };
 
-export default TorringtonPlumbingInfo;
+export default JacksonDrainCleaningInfo;

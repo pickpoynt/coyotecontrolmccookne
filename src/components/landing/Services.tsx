@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Advanced <span className="text-indigo-600">drain cleaning eugene</span>
+            Advanced <span className="text-indigo-600">drain cleaning jackson mi</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Eugene property owners trust us for technical precision and high-torque drain clearing. We conquer the toughest Willamette Valley blockages.
+            Jackson property owners trust us for technical precision and high-torque drain clearing. We conquer the toughest Mid-Michigan blockages.
           </p>
         </div>
 
@@ -18,7 +18,7 @@ const Services = () => {
             {
               icon: Zap,
               title: "Drain Unclogging",
-              description: "High-torque mechanical clearing that completely removes blockages from kitchen sinks, toilets, and showers in Eugene homes.",
+              description: "High-torque mechanical clearing that completely removes blockages from kitchen sinks, toilets, and showers in Jackson homes.",
               link: "#contact"
             },
             {
@@ -35,8 +35,8 @@ const Services = () => {
             },
             {
               icon: Waves,
-              title: "Video Inspection",
-              description: "High-definition camera diagnostics to pinpoint the exact location of clogs and verify that your pipes are perfectly clean.",
+              title: "Technical Inspection",
+              description: "High-definition camera diagnostics to pinpoint the exact location of clogs and verify that your Jackson pipes are perfectly clean.",
               link: "#contact"
             }
           ].map((service, index) => (
