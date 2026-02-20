@@ -26,7 +26,7 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Klamath Falls Drain Cleaning Pros",
-            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80",
+            "image": "/1.jpeg",
             "@id": "https://klamathfallsdraincleaningpros.com/",
             "url": "https://klamathfallsdraincleaningpros.com/",
             "telephone": "+18777921410",
@@ -109,7 +109,7 @@ const Index = () => {
         <meta property="og:description" content="drain cleaning klamath falls - Expert professional drain cleaning klamath falls. High-tech solutions for local homeowners." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://klamathfallsdraincleaningpros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80" />
+        <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
       <Header />
@@ -122,7 +122,7 @@ const Index = () => {
             </>
           }
           subtitle="Southern Oregon's mountain-grade drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout the Klamath Basin's unique environments."
-          image="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
+          image="/1.jpeg"
           overlayImage="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80"
           badge="KLAMATH BASIN DRAINAGE SPECIALISTS"
         />

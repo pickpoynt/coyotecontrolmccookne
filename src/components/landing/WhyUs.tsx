@@ -55,7 +55,7 @@ const WhyUs = () => {
           <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
               <img
-                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
+                src="/2.jpeg"
                 alt="Klamath Falls Drain Cleaning Equipment"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
@@ -63,7 +63,7 @@ const WhyUs = () => {
 
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
-                src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80"
+                src="/3.jpeg"
                 alt="Professional Technician On Site"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
