@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "How fast should I react to a basement sewer backup in Atherton?",
-    answer: "Immediate reaction is critical. Category 3 sewage water contains harmful pathogens that begin penetrating porous surfaces and structural materials instantly. Our Atherton emergency team typically arrives within 45 minutes to begin extraction."
+    question: "Is raw sewage backup dangerous to my family?",
+    answer: "Yes — extremely. Raw sewage (Category 3 water) contains E. coli, Salmonella, Hepatitis A, Norovirus, and other harmful pathogens. Do not touch it without PPE. Our raw sewage backup removal Atherton CA team handles hazardous extraction safely."
   },
   {
-    question: "Is your cleaning process safe for luxury basement finishes?",
-    answer: "Yes. Our basement sewer backup cleaning Atherton CA specialists use specific clinical-grade sanitizers designed for high-end materials like marble, bespoke cabinetry, and luxury masonry, ensuring decontamination without damage."
+    question: "How quickly can you respond to a raw sewage emergency in Atherton?",
+    answer: "Our team is staged locally on the Peninsula and maintains a target response time of under 45 minutes for Atherton, Menlo Park, Woodside, and Portola Valley."
   },
   {
-    question: "Do you provide documentation for insurance claims?",
-    answer: "Absolutely. We provide comprehensive forensic documentation, including moisture maps, decontamination logs, and thermal imagery to support your insurance claim for your Atherton residence."
+    question: "What does IICRC S500 standard mean for my cleanup?",
+    answer: "The IICRC S500 standard is the global benchmark for water damage and sewage remediation. Following it guarantees scientific, documented, and legally defensible decontamination — critical for insurance claims and resale value in Atherton."
   },
   {
-    question: "What is your decontamination standard?",
-    answer: "We adhere to IICRC S500 and S520 standards for sewage and biohazard remediation, using EPA-registered broad-spectrum disinfectants to ensure a clinical level of hygiene in your living space."
+    question: "Can you work discreetly without advertising the emergency?",
+    answer: "Absolutely. We fully respect the privacy of Atherton residents. We can operate with unmarked vehicles and during off-hours to ensure your situation remains completely private."
   }
 ];
 
@@ -31,21 +31,17 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Critical Intelligence</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Atherton Sewer <span className="text-indigo-600">FAQ</span>
+            Raw Sewage Removal <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Essential information for Atherton property owners facing a basement sewage emergency or failure.
+            Key answers for Atherton property owners facing a raw sewage backup emergency.
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem
-                key={index}
-                value={`item-${index}`}
-                className="bg-white border border-slate-200 rounded-2xl px-6"
-              >
+              <AccordionItem key={index} value={`item-${index}`} className="bg-white border border-slate-200 rounded-2xl px-6">
                 <AccordionTrigger className="text-left font-bold text-slate-900 hover:text-indigo-600 py-6 text-lg uppercase tracking-tight" id={`faq-trigger-${index}`}>
                   {faq.question}
                 </AccordionTrigger>

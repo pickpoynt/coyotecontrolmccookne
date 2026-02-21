@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldAlert className="w-7 h-7 text-indigo-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Atherton Sewer Cleanup</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Atherton Raw Sewage</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Removal Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Atherton's specialized technical biohazard cleaning experts. We provide clinical-grade extraction, decontamination, and structural drying across San Mateo County.
+              Atherton's biohazard elite. We provide clinical-grade raw sewage extraction, pathogen decontamination, and air restoration across San Mateo County.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Sewage Extraction", "Bioremediation", "Structural Drying", "Odor Neutralization"].map((item) => (
+              {["Raw Sewage Extraction", "Biohazard Decontamination", "Pathogen Elimination", "HEPA Air Restoration"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -37,7 +37,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Company</h4>
             <ul className="space-y-4">
-              {["Elite Protocol", "Area Coverage", "Contact Us", "Privacy Policy", "TOS"].map((item) => (
+              {["About Us", "Coverage Area", "Contact Us", "Privacy Policy"].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Elite Staging Information</h4>
+            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">NAP</h4>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-indigo-500 shrink-0" />
@@ -70,35 +70,11 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Atherton Sewer Backup Cleaning Pros. All rights reserved. San Mateo County Premium Remediation.
+            © {new Date().getFullYear()} Atherton Raw Sewage Removal Pros. All rights reserved. San Mateo County Biohazard Remediation.
           </p>
         </div>
       </div>
-
       <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-indigo-600/5 rounded-full blur-3xl" />
-
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Atherton Sewer Backup Cleaning Pros",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "91 Ashfield Rd",
-            "addressLocality": "Atherton",
-            "addressRegion": "CA",
-            "postalCode": "94027",
-            "addressCountry": "US"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "37.4613",
-            "longitude": "-122.1977"
-          },
-          "telephone": "+18777921410",
-          "url": "https://atherton-sewer-backup-cleaning.com/"
-        })}
-      </script>
     </footer>
   );
 };

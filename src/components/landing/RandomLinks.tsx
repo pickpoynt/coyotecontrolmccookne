@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom";
-
 const links = [
-  { text: "Eugene Drain Cleaning", url: "https://draincleaningeugene.vercel.app/", internal: false },
-  { text: "Jackson MI Drain Cleaning", url: "https://draincleaningjacksonmi.vercel.app/", internal: false },
-  { text: "San Francisco CA Plumbers", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },
-  { text: "Charlotte NC Plumbing Team", url: "https://plumbercharlottenc.vercel.app/", internal: false },
+  { text: "Eugene Drain Cleaning", url: "https://draincleaningeugene.vercel.app/" },
+  { text: "Jackson MI Drain Cleaning", url: "https://draincleaningjacksonmi.vercel.app/" },
+  { text: "San Francisco CA Plumbers", url: "https://plumbersanfranciscoca.vercel.app/" },
+  { text: "Charlotte NC Plumbing Team", url: "https://plumbercharlottenc.vercel.app/" },
 ];
 
 const RandomLinks = () => {
@@ -13,25 +11,15 @@ const RandomLinks = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
           {links.map((link, index) => (
-            link.internal ? (
-              <Link
-                key={index}
-                to={link.url}
-                className="text-slate-400 hover:text-indigo-600 transition-colors text-sm font-medium uppercase tracking-widest"
-              >
-                {link.text}
-              </Link>
-            ) : (
-              <a
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-400 hover:text-indigo-600 transition-colors text-sm font-medium uppercase tracking-widest"
-              >
-                {link.text}
-              </a>
-            )
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-indigo-600 transition-colors text-sm font-medium uppercase tracking-widest"
+            >
+              {link.text}
+            </a>
           ))}
         </div>
       </div>

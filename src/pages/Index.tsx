@@ -2,33 +2,31 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import AthertonSewerBackupInfo from "@/components/landing/AthertonSewerBackupInfo";
+import RawSewageRemovalAthertonInfo from "@/components/landing/RawSewageRemovalAthertonInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
-
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>basement sewer backup cleaning Atherton CA - Atherton Sewer Backup Cleaning Pros</title>
-        <meta name="description" content="basement sewer backup cleaning Atherton CA - Professional basement sewer backup cleaning Atherton CA. Expert decontamination and restoration in San Mateo County. Call 877-792-1410 for 24/7 elite service." />
-        <meta name="keywords" content="basement sewer backup cleaning Atherton CA, Atherton sewer cleanup, sewage extraction San Mateo County, basement flood remediation CA" />
-        <link rel="canonical" href="https://atherton-sewer-backup-cleaning.com/" />
+        <title>raw sewage backup removal Atherton CA - Atherton Raw Sewage Removal Pros</title>
+        <meta name="description" content="raw sewage backup removal Atherton CA - Professional raw sewage backup removal Atherton CA. Clinical-grade biohazard extraction and decontamination in San Mateo County. Call 877-792-1410 for 24/7 emergency response." />
+        <meta name="keywords" content="raw sewage backup removal Atherton CA, Atherton biohazard cleanup, sewage removal San Mateo County, Category 3 water removal CA" />
+        <link rel="canonical" href="https://rawsewageremovalatherton.com/" />
 
-        {/* Structured Data Schemas */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Atherton Sewer Backup Cleaning Pros",
-            "image": "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&q=80",
-            "@id": "https://atherton-sewer-backup-cleaning.com/",
-            "url": "https://atherton-sewer-backup-cleaning.com/",
+            "name": "Atherton Raw Sewage Removal Pros",
+            "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80",
+            "@id": "https://rawsewageremovalatherton.com/",
+            "url": "https://rawsewageremovalatherton.com/",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
@@ -45,19 +43,10 @@ const Index = () => {
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
               "opens": "00:00",
               "closes": "23:59"
-            },
-            "sameAs": []
+            }
           })}
         </script>
 
@@ -65,10 +54,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Sewer Backup Cleaning Service",
+            "serviceType": "Raw Sewage Backup Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Atherton Sewer Backup Cleaning Pros"
+              "name": "Atherton Raw Sewage Removal Pros"
             },
             "areaServed": {
               "@type": "City",
@@ -76,40 +65,21 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Sewer Backup Cleanup Services",
+              "name": "Raw Sewage Removal Services",
               "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Sewage Extraction"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Basement Decontamination"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Biohazard Remediation"
-                  }
-                }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raw Sewage Extraction" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Biohazard Decontamination" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pathogen Elimination" } }
               ]
             }
           })}
         </script>
 
-        {/* Open Graph Tags */}
-        <meta property="og:title" content="basement sewer backup cleaning Atherton CA - Atherton Sewer Backup Cleaning Pros" />
-        <meta property="og:description" content="basement sewer backup cleaning Atherton CA - Premium sewage backup cleanup and restoration in Atherton. Discreet and clinical-grade emergency response." />
+        <meta property="og:title" content="raw sewage backup removal Atherton CA - Atherton Raw Sewage Removal Pros" />
+        <meta property="og:description" content="raw sewage backup removal Atherton CA - Clinical-grade biohazard sewage removal. Emergency response in Atherton and San Mateo County." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://atherton-sewer-backup-cleaning.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://rawsewageremovalatherton.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -117,18 +87,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              basement sewer <br />
-              <span className="text-white drop-shadow-sm uppercase">backup cleaning Atherton CA</span>
+              raw sewage backup <br />
+              <span className="text-white drop-shadow-sm uppercase">removal Atherton CA</span>
             </>
           }
-          subtitle="Atherton's premier biohazard restoration firm. We deploy hospital-grade sanitization and forensic-level moisture control to restore your luxury basement after a sewer catastrophe."
-          image="https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&q=80"
-          badge="ATHERTON ELITE RESTORATION"
+          subtitle="Atherton's top-rated biohazard elimination specialists. We deploy clinical-grade pathogen containment, industrial extraction, and forensic decontamination to make your estate safe again — fast."
+          image="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80"
+          badge="ATHERTON BIOHAZARD ELITE"
         />
         <Services />
         <WhyUs />
-        <AthertonSewerBackupInfo />
+        <RawSewageRemovalAthertonInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
