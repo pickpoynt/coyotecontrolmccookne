@@ -78,9 +78,16 @@ const Footer = () => {
                   <Mail className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:leasemynumber@gmail.com" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">leasemynumber@gmail.com</a>
-                </div>
+  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">
+    Support
+  </p>
+  <a 
+    href="https://coyotecontrolmccookne.vercel.app/lease" 
+    className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors tracking-tight"
+  >
+    LEASE MY NUMBER
+  </a>
+</div>
               </li>
             </ul>
           </div>
@@ -112,3 +119,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
