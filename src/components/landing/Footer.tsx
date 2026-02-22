@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-indigo-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Chesapeake Repiping</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Chesapeake</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Burbank Termite</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Burbank</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Chesapeake's specialized experts in comprehensive home repiping. We provide full-system replacements with PEX and copper, ensuring your home's plumbing is durable, safe, and efficient for decades to come.
+              Burbank's specialized experts in comprehensive termite inspection and protection. We provide escrow inspections, localized treatments, and long-term prevention strategies to safeguard your property from wood-destroying organisms.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Full Home Repiping", "PEX Pipe Installation", "Copper Pipe Replacement", "Galvanized Pipe Removal", "Main Water Line Service"].map((item) => (
+              {["Termite Inspection", "Escrow Reports", "Localized Treatment", "Soil Barriers", "Wood Repair Counseling"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -54,15 +54,15 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-indigo-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Chesapeake Repiping Pros<br />
-                  1215 Volvo Pkwy<br />
-                  Chesapeake, VA 23320
+                  Burbank Termite Pros<br />
+                  225 E Olive Ave<br />
+                  Burbank, CA 91502
                 </address>
               </div>
               <div className="flex items-center gap-4">
                 <Phone className="w-6 h-6 text-indigo-500 shrink-0" />
-                <a href="tel:8777921410" className="text-xl font-bold text-white hover:text-indigo-500 transition-colors">
-                  (877) 792-1410
+                <a href="tel:3238801224" className="text-xl font-bold text-white hover:text-indigo-500 transition-colors">
+                  (323) 880-1224
                 </a>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Chesapeake Repiping Pros. All rights reserved. Professional Home Repiping Chesapeake VA.
+            © {new Date().getFullYear()} Burbank Termite Pros. All rights reserved. Professional Termite Inspection Burbank.
           </p>
         </div>
       </div>

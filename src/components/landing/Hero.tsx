@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Chesapeake Repiping Pros",
-  subtitle = "Expert whole-home repiping for Chesapeake's historic and modern residences.",
+  title = "Burbank Termite Pros",
+  subtitle = "Expert termite inspection for Burbank's residential and commercial properties.",
   image = "/1.jpeg",
   overlayImage = "/3.jpeg",
-  phone = "8777921410",
-  badge = "CHESAPEAKE REPIPING PROS",
+  phone = "3238801224",
+  badge = "BURBANK TERMITE PROS",
   features = [
-    { icon: Locate, text: "Virginia Master Plumber" },
-    { icon: ShieldCheck, text: "Full Home Repipe" },
-    { icon: Activity, text: "Leak Protection" }
+    { icon: Locate, text: "Clinical Inspection" },
+    { icon: ShieldCheck, text: "Burbank SFV Ready" },
+    { icon: Activity, text: "Protective Barriers" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

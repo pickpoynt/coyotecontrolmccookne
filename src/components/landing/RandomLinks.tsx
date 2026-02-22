@@ -1,8 +1,8 @@
 const links = [
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
   { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
   { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
+  { text: "Brown Recluse Spider Control La Grange", url: "https://brownreclusespidercontrollagrange.vercel.app" },
 ];
 
 const RandomLinks = () => {

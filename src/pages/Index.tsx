@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import ChesapeakeRepipingInfo from "@/components/landing/ChesapeakeRepipingInfo";
+import BurbankTermiteInfo from "@/components/landing/BurbankTermiteInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>home repiping chesapeake va - Chesapeake Repiping Pros</title>
-        <meta name="description" content="home repiping chesapeake va - Professional whole-home repiping in Chesapeake. Master plumbers providing PEX and copper pipe replacement, galvanized pipe removal, and leak prevention." />
-        <meta name="keywords" content="home repiping chesapeake va, whole home repiping Chesapeake, PEX pipe installation Chesapeake, galvanized pipe replacement Chesapeake VA, plumber Chesapeake VA" />
-        <link rel="canonical" href="https://homerepipingchesapeakeva.com/" />
+        <title>termite inspection burbank - Burbank Termite Pros</title>
+        <meta name="description" content="termite inspection burbank - Professional termite inspection in Burbank. Licensed specialists providing escrow WDO reports, localized treatments, and termite protection." />
+        <meta name="keywords" content="termite inspection burbank, real estate termite report Burbank, localized termite treatment Burbank, termite protection Burbank CA, pest control Burbank CA" />
+        <link rel="canonical" href="https://termiteinspectionburbank.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Chesapeake Repiping Pros",
+            "name": "Burbank Termite Pros",
             "image": "/1.jpeg",
-            "@id": "https://homerepipingchesapeakeva.com/",
-            "url": "https://homerepipingchesapeakeva.com/",
-            "telephone": "+18777921410",
+            "@id": "https://termiteinspectionburbank.com/",
+            "url": "https://termiteinspectionburbank.com/",
+            "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "1215 Volvo Pkwy",
-              "addressLocality": "Chesapeake",
-              "addressRegion": "VA",
-              "postalCode": "23320",
+              "streetAddress": "225 E Olive Ave",
+              "addressLocality": "Burbank",
+              "addressRegion": "CA",
+              "postalCode": "91502",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "36.7416",
-              "longitude": "-76.2427"
+              "latitude": "34.1808",
+              "longitude": "-118.3090"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Home Repiping Services",
+            "serviceType": "Termite Inspection & Protection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Chesapeake Repiping Pros"
+              "name": "Burbank Termite Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Chesapeake, VA"
+              "name": "Burbank, CA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Home Repiping Services",
+              "name": "Termite Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PEX Pipe Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Copper Pipe Replacement" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole-Home Plumbing Modernization" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Termite Inspection" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Escrow WDO Reporting" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Localized Termite Treatment" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="home repiping chesapeake va - Chesapeake Repiping Pros" />
-        <meta property="og:description" content="home repiping chesapeake va - Expert whole-home repiping and pipe modernization services in Chesapeake, VA." />
+        <meta property="og:title" content="termite inspection burbank - Burbank Termite Pros" />
+        <meta property="og:description" content="termite inspection burbank - Expert termite inspection and protection services in Burbank, CA." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://homerepipingchesapeakeva.com/" />
+        <meta property="og:url" content="https://termiteinspectionburbank.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              home repiping <br />
-              <span className="text-white drop-shadow-sm uppercase">chesapeake va</span>
+              termite inspection <br />
+              <span className="text-white drop-shadow-sm uppercase">burbank</span>
             </>
           }
-          subtitle="Chesapeake's specialized experts in whole-home repiping and pipe modernization. We provide comprehensive inspections, PEX conversions, and high-performance copper systems to protect your home from leaks and water damage. Available 24/7 for emergency service."
+          subtitle="Burbank's specialized experts in comprehensive termite inspection and protection. We provide escrow inspections, localized treatments, and long-term prevention strategies to safeguard your property from wood-destroying organisms. Available 24/7 for emergency service."
           image="/1.jpeg"
           overlayImage="/3.jpeg"
-          badge="CHESAPEAKE REPIPING ELITE"
-          phone="8777921410"
+          badge="BURBANK TERMITE ELITE"
+          phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <ChesapeakeRepipingInfo />
+        <BurbankTermiteInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

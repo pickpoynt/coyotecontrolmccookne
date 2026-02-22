@@ -1,23 +1,21 @@
+import { HelpCircle } from 'lucide-react';
+
 const faqs = [
   {
-    question: "What are the signs that my Chesapeake home needs repiping?",
-    answer: "Common signs include frequent leaks, a noticeable drop in water pressure, discolored or rusty water, and a metallic taste. If your home has galvanized pipes or is over 40 years old, a professional inspection from our home repiping chesapeake va team is highly recommended."
+    question: "What are the signs that my Burbank home needs a termite inspection?",
+    answer: "Common signs include seeing winged 'swarmers' near light sources, finding mud tubes on your foundation, hearing hollow sounds when tapping wood, or discovering discarded wings. Because termites work from the inside out, a professional termite inspection burbank is the only way to confirm an infestation before significant damage occurs."
   },
   {
-    question: "How long does a typical whole-home repipe take?",
-    answer: "Most whole-home repiping projects in Chesapeake are completed in 3 to 5 days. We work efficiently to minimize disruption, often ensuring you have water service restored at the end of each workday."
+    question: "Do I need a termite inspection for escrow in Burbank?",
+    answer: "Yes, most real estate transactions in Southern California require a Wood Destroying Organism (WDO) report to close escrow. Our team provides detailed, certified reports that satisfy lenders and provide buyers with an accurate assessment of the property's condition."
   },
   {
-    question: "Which is better for repiping: PEX or Copper?",
-    answer: "Both have advantages. PEX is flexible, resistant to scale, and more affordable, making it a popular choice for Chesapeake attics and crawlspaces. Copper is traditional, durable, and has natural antimicrobial properties. We'll help you choose the best material for your specific needs."
+    question: "How long does a professional termite inspection take?",
+    answer: "A comprehensive inspection of a typical Burbank home usually takes 1 to 2 hours. This includes checking the perimeter, attic, crawl space, and interior to ensure no area is left unexamined."
   },
   {
-    question: "Will repiping my home require tearing down all my walls?",
-    answer: "Not at all. Our home repiping chesapeake va specialists use 'surgical' extraction methods. We make small, strategic incisions in the drywall that are easily patched, preserving as much of your home's original finish as possible."
-  },
-  {
-    question: "Does repiping increase my home's value?",
-    answer: "Yes, significantly. A full repipe is a major selling point in the Chesapeake real estate market, as it assures buyers that the home is free from hidden water damage risks and has modernized plumbing infrastructure."
+    question: "What is the difference between drywood and subterranean termites?",
+    answer: "Subterranean termites live in the soil and build mud tubes to reach wood sources, while drywood termites live entirely inside the wood they consume. Both are common in Burbank, and our termite inspection burbank techniques are designed to identify and treat both species effectively."
   }
 ];
 
@@ -32,13 +30,16 @@ const FAQ = () => {
   return (
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Repiping Expert Answers</span>
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm">
+            <HelpCircle className="w-4 h-4" />
+            Common Questions
+          </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            home repiping chesapeake va <span className="text-indigo-600">FAQ</span>
+            termite inspection burbank <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Key answers for Chesapeake property owners considering complete plumbing modernization.
+            Essential information for Burbank homeowners regarding termite detection, protection, and escrow requirements.
           </p>
         </div>
 
